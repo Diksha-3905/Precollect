@@ -1,0 +1,166 @@
+body{
+  margin:0;
+  background:#050B21;
+  color:white;
+  font-family:Arial;
+}
+
+.wrapper{
+  text-align:center;
+}
+
+/* NAVBAR */
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 60px;
+  background:#060D28;
+}
+
+.nav-left{
+  font-size:14px;
+}
+
+.nav-links{
+  list-style:none;
+  display:flex;
+  gap:25px;
+  margin:0;
+  padding:0;
+}
+
+.nav-links li{
+  cursor:pointer;
+  opacity:.8;
+}
+
+.nav-links li.active{
+  background:#251A45;
+  padding:6px 14px;
+  border-radius:14px;
+}
+
+.demo-btn{
+  background:#251A45;
+  border:none;
+  padding:10px 18px;
+  border-radius:18px;
+  color:white;
+}
+
+/* HERO */
+
+.hero{
+  width:70%;
+  margin:40px auto;
+}
+
+.hero span{
+  color:#d0b3ff;
+}
+
+.hero p{
+  opacity:.8;
+  line-height:22px;
+}
+
+/* IMAGES */
+
+.banner{
+  width:80%;
+  border-radius:12px;
+  margin-top:15px;
+}
+
+/* HEADINGS */
+
+.section-heading{
+  margin-top:55px;
+  font-weight:normal;
+}
+
+/* GRID */
+
+.grid{
+  width:80%;
+  margin:20px auto;
+  display:grid;
+  gap:22px;
+  grid-template-columns:repeat(2,1fr);
+}
+
+.card{
+  background:#0E153F;
+  border-radius:12px;
+  padding:12px;
+}
+
+.card img{
+  width:100%;
+  border-radius:10px;
+}
+
+.card.large{
+  grid-column:span 2;
+}
+
+/* CTA */
+
+.cta{
+  width:80%;
+  margin:60px auto;
+  background:#0E153F;
+  padding:30px 10px;
+  border-radius:12px;
+}
+
+.cta button{
+  border:none;
+  padding:10px 18px;
+  border-radius:20px;
+  background:#251A45;
+  color:white;
+}
+
+/* FOOTER */
+
+footer{
+  background:#060D28;
+  margin-top:50px;
+  padding:40px;
+}
+
+.footer-top{
+  display:flex;
+  justify-content:space-around;
+}
+
+.email-box{
+  background:#101B40;
+  padding:8px;
+  border-radius:20px;
+  display:flex;
+}
+
+.email-box input{
+  background:transparent;
+  border:none;
+  color:white;
+  outline:none;
+  padding-left:8px;
+}
+
+.email-box button{
+  background:#7A2CF4;
+  border:none;
+  color:white;
+  padding:8px 12px;
+  border-radius:18px;
+}
+
+.copyright{
+  margin-top:20px;
+  opacity:.6;
+}
