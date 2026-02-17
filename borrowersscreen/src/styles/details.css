@@ -1,0 +1,111 @@
+.details-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.details-content {
+  padding: 32px;
+  background: #070b1a;
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Header */
+.case-header {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  background: linear-gradient(180deg, #0e132b, #020617);
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+.case-header-item h3 {
+  font-size: 16px;
+}
+
+.case-header-item span {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+/* Grid */
+.details-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+/* Cards */
+.card {
+  background: linear-gradient(180deg, #0e132b, #020617);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.card h4 {
+  margin-bottom: 16px;
+}
+
+/* Borrower Info */
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+label {
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+/* Actions */
+.action-btn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid #334155;
+  color: white;
+}
+
+.close-btn {
+  width: 100%;
+  padding: 12px;
+  background: #fde8d8;
+  color: #7f1d1d;
+  border-radius: 12px;
+  border: none;
+  margin-top: 12px;
+}
+
+/* Timeline */
+.timeline ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.timeline li {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #6366f1;
+  border-radius: 50%;
+  margin-top: 6px;
+}
+
+/* Summary */
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  color: #cbd5e1;
+}

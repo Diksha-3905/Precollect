@@ -1,0 +1,50 @@
+.content {
+  flex: 1;
+  padding: 32px;
+  background-color: #070b1a;
+  overflow-y: auto;
+}
+
+.subtitle {
+  color: #94a3b8;
+  margin-bottom: 16px;
+}
+
+table {
+  width: 100%;
+  background: linear-gradient(180deg, #0e132b, #020617);
+  border-radius: 16px;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 16px;
+  text-align: left;
+}
+
+thead {
+  color: #94a3b8;
+}
+
+tbody tr {
+  border-top: 1px solid #1e293b;
+}
+
+tbody tr:hover {
+  background: #141a3a;
+}
+
+button {
+  background: transparent;
+  border: 1px solid #475569;
+  padding: 6px 14px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e293b;
+}

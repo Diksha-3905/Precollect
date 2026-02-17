@@ -1,0 +1,35 @@
+.status-badge {
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* Borrower List statuses */
+.status-badge.pending {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.status-badge.paid {
+  background: #16a34a;
+  color: #ffffff;
+}
+
+.status-badge.unreachable {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.status-badge.bounced {
+  background: #e0e7ff;
+  color: #4338ca;
+}
+
+/* Case Details */
+.status-badge.overdue-30+-days {
+  background: #fee2e2;
+  color: #b91c1c;
+}

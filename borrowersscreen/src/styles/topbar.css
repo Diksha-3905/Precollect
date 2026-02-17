@@ -1,0 +1,45 @@
+.topbar {
+  height: 64px;
+  background: linear-gradient(180deg, #0b1020, #020617);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  border-bottom: 1px solid #1e293b;
+  flex-shrink: 0;
+}
+
+/* Left */
+.topbar-left .brand {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+/* Right */
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon-btn {
+  background: transparent;
+  border: none;
+  color: #cbd5e1;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.icon-btn:hover {
+  color: white;
+}
+
+/* Profile */
+.profile img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #334155;
+}

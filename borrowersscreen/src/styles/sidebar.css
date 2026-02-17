@@ -1,0 +1,49 @@
+.sidebar {
+  width: 260px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0b1020, #020617);
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+  color: white;
+}
+
+/* Logo */
+.sidebar-logo {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+/* Navigation */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sidebar-nav a {
+  text-decoration: none;
+  color: #cbd5e1;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.sidebar-nav a:hover {
+  background: #1e293b;
+}
+
+.sidebar-nav .active {
+  background: linear-gradient(90deg, #7c3aed, #9333ea);
+  color: white;
+}
+
+/* Footer */
+.sidebar-footer {
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid #1e293b;
+  font-size: 13px;
+  color: #94a3b8;
+}
